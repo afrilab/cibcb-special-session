@@ -172,6 +172,21 @@ export default function CIBCBSpecialSessionPage() {
                   As intelligent systems become embedded within real biomedical and clinical infrastructures, their scientific value depends not only on predictive performance, but also on transparency, accountability, privacy, sustainability, and readiness for deployment in regulated settings.
                 </p>
               </div>
+              
+              <div className="mt-4 rounded-2xl border border-emerald-200 bg-emerald-50 p-4">
+                <div className="text-xs uppercase tracking-[0.18em] text-emerald-700">
+                  Paper Submission Deadline
+                </div>
+                <div className="mt-2 text-lg font-semibold text-slate-900">
+                  March 31, 2026
+                </div>
+                <a
+                  href="https://cibcb2026.dib.uth.gr/submissions/"
+                  className="mt-2 inline-block text-sm font-medium text-cyan-700 hover:text-cyan-800"
+                >
+                  Visit the Submission System
+                </a>
+              </div>
             </div>
           </div>
         </section>
