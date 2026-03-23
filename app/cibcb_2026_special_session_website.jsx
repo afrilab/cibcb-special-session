@@ -381,7 +381,7 @@ export default function CIBCBSpecialSessionPage() {
 
           <div className="mt-10 flex flex-col gap-3 border-t border-slate-200 pt-6 text-sm text-slate-500 md:flex-row md:items-center md:justify-between">
             <div>IEEE CIBCB 2026 · Athens, Greece · Aug 31 – Sep 2, 2026</div>
-            <div>Special Session Website Draft</div>
+            <div>Special Session Website </div>
           </div>
         </div>
       </footer>
