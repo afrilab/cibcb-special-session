@@ -48,7 +48,7 @@ export default function CIBCBSpecialSessionPage() {
   ];
 
   const dates = [
-    { label: "Paper Submission Deadline", value: "March 31, 2026", href: "https://cibcb2026.dib.uth.gr/submissions/" },
+    { label: "Paper Submission Deadline", value: "(Extended) April 20, 2026", href: "https://cibcb2026.dib.uth.gr/submissions/" },
     { label: "Acceptance Notification", value: "May 31, 2026" },
     { label: "Final Paper Submission & Early Registration", value: "June 30, 2026" },
     { label: "Conference Dates", value: "August 31 – September 2, 2026" },
@@ -172,17 +172,23 @@ export default function CIBCBSpecialSessionPage() {
                   As intelligent systems become embedded within real biomedical and clinical infrastructures, their scientific value depends not only on predictive performance, but also on transparency, accountability, privacy, sustainability, and readiness for deployment in regulated settings.
                 </p>
               </div>
-              
-              <div className="mt-4 rounded-2xl border border-emerald-200 bg-emerald-50 p-4">
-                <div className="text-xs uppercase tracking-[0.18em] text-emerald-700">
+
+              <div className="mt-4 rounded-2xl border border-rose-200 bg-rose-50 p-4">
+                <div className="text-xs uppercase tracking-[0.18em] text-rose-700">
                   Paper Submission Deadline
                 </div>
-                <div className="mt-2 text-lg font-semibold text-slate-900">
+                <div className="mt-2 text-sm text-slate-500 line-through">
                   March 31, 2026
+                </div>
+                <div className="mt-2 inline-flex items-center rounded-full bg-rose-600 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-white">
+                  Extended
+                </div>
+                <div className="mt-2 text-xl font-bold text-rose-700">
+                  April 20, 2026
                 </div>
                 <a
                   href="https://cibcb2026.dib.uth.gr/submissions/"
-                  className="mt-2 inline-block text-sm font-medium text-cyan-700 hover:text-cyan-800"
+                  className="mt-3 inline-block text-sm font-medium text-cyan-700 hover:text-cyan-800"
                 >
                   Visit the Submission System
                 </a>
@@ -192,80 +198,78 @@ export default function CIBCBSpecialSessionPage() {
         </section>
 
         <section id="about" className="mx-auto max-w-7xl px-6 py-10 lg:px-10">
-  <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
+          <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
+            <div className="rounded-[2rem] border border-slate-200 bg-white/90 p-7 shadow-sm backdrop-blur animate-fadeUp">
+              <div className="text-sm uppercase tracking-[0.3em] text-cyan-700">Aim and Scope</div>
+              <h2 className="mt-3 text-2xl font-semibold text-slate-950 sm:text-3xl">
+                Responsible and Sustainable Computational Intelligence for Biomedicine
+              </h2>
 
-    <div className="rounded-[2rem] border border-slate-200 bg-white/90 p-7 shadow-sm backdrop-blur animate-fadeUp">
-      <div className="text-sm uppercase tracking-[0.3em] text-cyan-700">Aim and Scope</div>
-      <h2 className="mt-3 text-2xl font-semibold text-slate-950 sm:text-3xl">
-        Responsible and Sustainable Computational Intelligence for Biomedicine
-      </h2>
+              <div className="mt-5 space-y-4 text-[15px] leading-7 text-slate-700 sm:text-base sm:leading-8">
+                <p>
+                  Computational intelligence methods are increasingly integrated into biomedical research, digital health platforms, and bioinformatics pipelines. However, beyond predictive performance, modern biomedical AI systems must address broader challenges including interpretability, fairness, privacy protection, regulatory compliance, and computational sustainability.
+                </p>
 
-      <div className="mt-5 space-y-4 text-[15px] leading-7 text-slate-700 sm:text-base sm:leading-8">
-        <p>
-          Computational intelligence methods are increasingly integrated into biomedical research, digital health platforms, and bioinformatics pipelines. However, beyond predictive performance, modern biomedical AI systems must address broader challenges including interpretability, fairness, privacy protection, regulatory compliance, and computational sustainability.
-        </p>
+                <p>
+                  This special session aims to create a forum for research that combines advanced computational intelligence with responsible system design. The focus is on approaches that support trustworthy, explainable, energy-efficient, and governance-aware AI systems capable of operating in real biomedical and clinical environments.
+                </p>
+              </div>
 
-        <p>
-          This special session aims to create a forum for research that combines advanced computational intelligence with responsible system design. The focus is on approaches that support trustworthy, explainable, energy‑efficient, and governance‑aware AI systems capable of operating in real biomedical and clinical environments.
-        </p>
-      </div>
+              <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
+                  <div className="text-sm font-semibold text-cyan-700">Scientific Focus</div>
+                  <p className="mt-2 text-sm leading-6 text-slate-700">
+                    Novel computational intelligence approaches addressing complex biomedical datasets such as medical imaging, omics data, and clinical health records.
+                  </p>
+                </div>
 
-      <div className="mt-6 grid gap-4 sm:grid-cols-2">
-        <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
-          <div className="text-sm font-semibold text-cyan-700">Scientific Focus</div>
-          <p className="mt-2 text-sm leading-6 text-slate-700">
-            Novel computational intelligence approaches addressing complex biomedical datasets such as medical imaging, omics data, and clinical health records.
-          </p>
-        </div>
+                <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
+                  <div className="text-sm font-semibold text-emerald-700">Responsible AI</div>
+                  <p className="mt-2 text-sm leading-6 text-slate-700">
+                    Methods that integrate transparency, explainability, privacy preservation, fairness, and governance considerations into AI system design.
+                  </p>
+                </div>
 
-        <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
-          <div className="text-sm font-semibold text-emerald-700">Responsible AI</div>
-          <p className="mt-2 text-sm leading-6 text-slate-700">
-            Methods that integrate transparency, explainability, privacy preservation, fairness, and governance considerations into AI system design.
-          </p>
-        </div>
+                <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
+                  <div className="text-sm font-semibold text-blue-700">Digital Health Systems</div>
+                  <p className="mt-2 text-sm leading-6 text-slate-700">
+                    Intelligent infrastructures supporting digital health platforms, distributed biomedical data ecosystems, and next-generation clinical decision systems.
+                  </p>
+                </div>
 
-        <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
-          <div className="text-sm font-semibold text-blue-700">Digital Health Systems</div>
-          <p className="mt-2 text-sm leading-6 text-slate-700">
-            Intelligent infrastructures supporting digital health platforms, distributed biomedical data ecosystems, and next‑generation clinical decision systems.
-          </p>
-        </div>
-
-        <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
-          <div className="text-sm font-semibold text-indigo-700">Sustainable AI</div>
-          <p className="mt-2 text-sm leading-6 text-slate-700">
-            Energy‑efficient and resource‑aware AI techniques enabling scalable biomedical intelligence with reduced environmental footprint.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div id="topics" className="rounded-[2rem] border border-slate-200 bg-white/90 p-7 shadow-sm backdrop-blur animate-fadeUp">
-      <div className="text-sm uppercase tracking-[0.3em] text-cyan-700">Topics of Interest</div>
-      <h2 className="mt-3 text-2xl font-semibold text-slate-950 sm:text-3xl">Areas of contribution</h2>
-
-      <p className="mt-4 text-[15px] leading-7 text-slate-700 sm:text-base sm:leading-8">
-        We invite original research contributions in areas including, but not limited to:
-      </p>
-
-      <div className="mt-5 grid gap-3">
-        {topics.map((topic, index) => (
-          <div
-            key={topic}
-            className="flex gap-3 rounded-xl border border-slate-200 bg-slate-50/80 px-4 py-3 transition hover:border-cyan-300 hover:bg-white"
-          >
-            <div className="mt-0.5 text-sm font-semibold text-cyan-700">
-              {String(index + 1).padStart(2, "0")}
+                <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">
+                  <div className="text-sm font-semibold text-indigo-700">Sustainable AI</div>
+                  <p className="mt-2 text-sm leading-6 text-slate-700">
+                    Energy-efficient and resource-aware AI techniques enabling scalable biomedical intelligence with reduced environmental footprint.
+                  </p>
+                </div>
+              </div>
             </div>
-            <p className="text-sm leading-7 text-slate-700">{topic}</p>
-          </div>
-        ))}
-      </div>
-    </div>
 
-  </div>
-</section>
+            <div id="topics" className="rounded-[2rem] border border-slate-200 bg-white/90 p-7 shadow-sm backdrop-blur animate-fadeUp">
+              <div className="text-sm uppercase tracking-[0.3em] text-cyan-700">Topics of Interest</div>
+              <h2 className="mt-3 text-2xl font-semibold text-slate-950 sm:text-3xl">Areas of contribution</h2>
+
+              <p className="mt-4 text-[15px] leading-7 text-slate-700 sm:text-base sm:leading-8">
+                We invite original research contributions in areas including, but not limited to:
+              </p>
+
+              <div className="mt-5 grid gap-3">
+                {topics.map((topic, index) => (
+                  <div
+                    key={topic}
+                    className="flex gap-3 rounded-xl border border-slate-200 bg-slate-50/80 px-4 py-3 transition hover:border-cyan-300 hover:bg-white"
+                  >
+                    <div className="mt-0.5 text-sm font-semibold text-cyan-700">
+                      {String(index + 1).padStart(2, "0")}
+                    </div>
+                    <p className="text-sm leading-7 text-slate-700">{topic}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
 
         <section className="mx-auto max-w-7xl px-6 py-10 lg:px-10">
           <div className="rounded-[2rem] border border-slate-200 bg-gradient-to-r from-cyan-50 via-white to-emerald-50 p-8 shadow-sm backdrop-blur animate-fadeUp">
@@ -333,7 +337,21 @@ export default function CIBCBSpecialSessionPage() {
             {dates.map((item, idx) => (
               <div key={item.label} className="rounded-[1.75rem] border border-slate-200 bg-white/85 p-6 text-center shadow-sm backdrop-blur animate-fadeUp" style={{ animationDelay: `${0.1 * idx}s` }}>
                 <div className="text-sm uppercase tracking-[0.22em] text-cyan-700">{item.label}</div>
-                <div className="mt-4 text-xl font-semibold text-slate-950">{item.value}</div>
+
+                <div className="mt-4 text-xl font-semibold text-slate-950">
+                  {item.label === "Paper Submission Deadline" ? (
+                    <div className="flex flex-col items-center gap-2">
+                      <span className="text-sm text-slate-500 line-through">March 31, 2026</span>
+                      <span className="inline-flex items-center rounded-full bg-rose-600 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-white">
+                        Extended
+                      </span>
+                      <span className="text-rose-700">(Extended) April 20, 2026</span>
+                    </div>
+                  ) : (
+                    item.value
+                  )}
+                </div>
+
                 {item.href ? (
                   <a href={item.href} className="mt-3 inline-block text-sm font-medium text-emerald-700 hover:text-emerald-800">
                     Visit the paper Submission System
@@ -381,7 +399,7 @@ export default function CIBCBSpecialSessionPage() {
 
           <div className="mt-10 flex flex-col gap-3 border-t border-slate-200 pt-6 text-sm text-slate-500 md:flex-row md:items-center md:justify-between">
             <div>IEEE CIBCB 2026 · Athens, Greece · Aug 31 – Sep 2, 2026</div>
-            <div>Special Session Website </div>
+            <div>Special Session Website</div>
           </div>
         </div>
       </footer>
