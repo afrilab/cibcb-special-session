@@ -48,7 +48,7 @@ export default function CIBCBSpecialSessionPage() {
   ];
 
   const dates = [
-    { label: "Paper Submission Deadline", value: "(Extended) April 20, 2026", href: "https://cibcb2026.dib.uth.gr/submissions/" },
+    { label: "Paper Submission Deadline", value: "(Extended) April 30, 2026", href: "https://cibcb2026.dib.uth.gr/submissions/" },
     { label: "Acceptance Notification", value: "May 31, 2026" },
     { label: "Final Paper Submission & Early Registration", value: "June 30, 2026" },
     { label: "Conference Dates", value: "August 31 – September 2, 2026" },
